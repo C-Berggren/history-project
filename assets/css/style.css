@@ -16,9 +16,8 @@ body {
     /* Gen project styles */
     color: #3a3a3a;
     font-family: 'Fira-Sans', sans-serif;
+    
 }
-
-
 
 header {
     background-color: #ffffff;
@@ -83,12 +82,19 @@ nav {
 
 /* Main content */
 main {
-    background-color: bisque;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 5em;
-    
-}
+    margin-top: 47px;
+    }
+
+    /* Hero section */
+   #hero {
+       height: 1110px;
+       width: 100%;
+       background-image: url(../images/aurora-borealis-northern-lights.jpg) no-repeat cover cover/center;
+       background-size: 100%;
+       background-color: #3a3a3a
+   }
 
 /* Footer content */
 #social-networks {
@@ -147,12 +153,9 @@ main {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 150px;
+        margin-top: 1200;
     }
 }
-
-
-
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 868px) 
@@ -165,5 +168,9 @@ main {
     }
     main {
         margin-top: 75px;
+    }
+
+    footer {
+        margin-bottom: 15px;
     }
 }
