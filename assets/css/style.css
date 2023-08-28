@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
 /* Gen styles */
@@ -16,8 +16,8 @@ body {
     /* Gen project styles */
     color: #3a3a3a;
     font-family: 'Fira-Sans', sans-serif;
-    
-    
+
+
 }
 
 header {
@@ -53,7 +53,7 @@ h1 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
-    
+
 }
 
 /* Navbar styles with dropdown toggle */
@@ -86,18 +86,19 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-    }
+}
 
-    /* Hero section */
-   #hero {
-       height: 1000px;
-       width: 1500;
-       background-image: url("../images/aurora-borealis-northern-lights.jpg");
-       background-size: auto center;
-       background-color: #3a3a3a;
-       background-repeat: no-repeat;
-       
-   }
+/* Hero section */
+#hero {
+    height: 1000px;
+    width: 1500;
+    background-image: url("../images/aurora-borealis-northern-lights.jpg");
+    background-size: cover;
+    background-color: #3a3a3a;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
 
 /* Footer content */
 #social-networks {
@@ -161,14 +162,12 @@ main {
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 868px) 
-
-
-{
+@media screen and (min-width: 868px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
-        
+
     }
+
     main {
         margin-top: 75px;
     }
