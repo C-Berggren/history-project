@@ -102,7 +102,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(235, 223, 223, 0.253);
+    background-color: #3a3a3a36;
     font-size: 130%;
     padding-top: 100px;
     padding-left: 10px;
@@ -113,6 +113,17 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color:#ffffff;
     text-align: center;
+}
+
+#filler-text {
+    box-sizing: border-box;
+    background-color: #3a3a3a36;
+    font-size: 110%;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+
 }
 
 /* Footer content */
