@@ -97,7 +97,15 @@ main {
     background-color: #3a3a3a;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 
+}
+
+#cover-text {
+    background-color: rgba(235, 223, 223, 0.253);
+    font-size: 130%;
+    color: #ffffff;
+    padding-top: 20px;
 }
 
 /* Footer content */
