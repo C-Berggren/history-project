@@ -104,8 +104,15 @@ main {
 #cover-text {
     background-color: rgba(235, 223, 223, 0.253);
     font-size: 130%;
-    color: #ffffff;
-    padding-top: 20px;
+    padding-top: 100px;
+    padding-left: 10px;
+    min-height: 200px;
+    bottom: 100px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color:#ffffff;
+    text-align: center;
 }
 
 /* Footer content */
@@ -165,7 +172,7 @@ main {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 1200;
+        margin-top: 70px;
     }
 }
 
