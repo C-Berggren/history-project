@@ -98,7 +98,7 @@ main {
 
 /* Aesir gods description */
 
-.rune-images {
+.aesir-rune-images {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -108,10 +108,16 @@ main {
 }
 
 #aesir {
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#aesir-title {
+    text-align: center;
+    
 }
 
 #aesir > h2 {
@@ -128,10 +134,34 @@ main {
     display: flex;
     align-items: center;
     justify-content: center
+    
 }
 
-.aesir-gods > p {
-    padding: 0 20px;
+/* Vanir gods description*/
+
+.vanir-rune-images {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+#vanir {
+    text-align: center;
+}
+
+.vanir-gods > h3 {
+    text-align: center;
+}
+
+#vanir {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center
+    
 }
 
 /* Hero section */
