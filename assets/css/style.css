@@ -88,6 +88,43 @@ main {
     margin-top: 47px;
 }
 
+#clouds-header {
+    background-image: url(../images/cloudsatdawn.jpg);
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+}
+
+/* Aesir gods description */
+
+#aesir {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aesir > h2 {
+    margin-bottom: 20px;
+}
+
+.aesir-gods > h3 {
+    line-height: 20px;
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+.aesir-gods {
+    margin: 5px 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.aesir-gods > p {
+    padding: 0 20px;
+}
+
 /* Hero section */
 #hero {
     height: 1000px;
@@ -123,6 +160,7 @@ main {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 50px;
+    text-align: center;
 
 }
 
