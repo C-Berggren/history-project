@@ -222,8 +222,9 @@ main {
 }
 
 .popculture-image {
-    height: 50px;
-    width: 50px;
+    float: left;
+    width: 100px;
+    
 }
 
 .popculture-text {
