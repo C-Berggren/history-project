@@ -125,6 +125,10 @@ main {
     text-align: center;
 }
 
+.gods {
+    font-size: 110%;
+}
+
 /* Hero section */
 #hero {
     height: 1000px;
