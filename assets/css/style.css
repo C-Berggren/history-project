@@ -213,10 +213,25 @@ main {
     height: 70%;
 }
 
-.img {
+/* Pop Culture content */
+
+.popculture {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.popculture-image {
     height: 50px;
     width: 50px;
 }
+
+.popculture-text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
 
 @media screen and (min-width: 382px) {
 
@@ -284,7 +299,5 @@ main {
         padding-right: 5em;
     }
 
-    footer {
-        margin-bottom: 0px;
-    }
+    
 }
