@@ -223,6 +223,8 @@ main {
 
 .popculture-image {
     width: 150px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .popculture-text {
