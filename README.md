@@ -6,7 +6,7 @@ The project can be expanded exponentially by utilizing the sections already in t
 
 This also includes pop culture references which some may frown on, however, though inaccurate, there is no shame in having fun as long as it's not shaming the culture in itself. That is why this project exists, to be able to blend two worlds.
 
-<img src="assets/readme_images/readme_resp.png">
+<img src="[assets/readme_images/readme_resp.png](https://pasteboard.co/pPg0dMuVMGSy.png)">
 
 ## Contents
 
